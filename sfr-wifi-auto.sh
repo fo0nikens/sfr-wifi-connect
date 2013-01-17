@@ -6,6 +6,12 @@ function param() {
   echo $1 | grep -o "$2=[^&]\+" | grep -o '[^=]\+$'
 }
 
+if [ $# -lt 2 ]
+then
+  echo "Usage: $(basename $0) SFR_EMAIL SFR_PASSWORD [CHECK_PERIOD]"
+  exit 1;
+fi
+
 sfr_email=$1
 sfr_pwd=$2
 check_period=${3:-"15s"}
