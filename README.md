@@ -1,6 +1,6 @@
-# Readme
+# SFR WiFi Connect
 
-*SFR WiFi Connect* will check regularly if your SFR WiFi session is still up
+`sfr-wifi-connect` will check regularly if your SFR WiFi session is still up
 and reopen it automatically if required.
 
 Default check period is 15 seconds.
