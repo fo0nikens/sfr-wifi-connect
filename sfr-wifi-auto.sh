@@ -8,6 +8,7 @@ function param() {
 
 sfr_email=$1
 sfr_pwd=$2
+check_period=${3:-"15s"}
 
 while true
 do
@@ -88,7 +89,7 @@ then
   fi
 fi
 
-sleep 15s
+sleep $check_period
 
 done
 
