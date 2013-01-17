@@ -16,7 +16,7 @@ See the Makefile for more options.
     $ sfr-wifi-connect foobar@sfr.fr 123abc456
     $ sfr-wifi-connect foobar@sfr.fr 123abc456 30s
 
-## `netcfg` profile example
+## Netcfg profile example
 
     CONNECTION='wireless'
     DESCRIPTION='SFR WiFi'
