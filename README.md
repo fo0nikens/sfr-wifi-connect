@@ -28,6 +28,7 @@ See the Makefile for more options.
     POST_DOWN='killall -q sfr-wifi-connect || echo "sfr-wifi-connect process not found"'
 
 Put this `netcfg` profile in your `/etc/rc.d/network` directory and `netcfg`
-will automatically start `sfr-wifi-connect` when connect and kill it when
-disconnected. Logs are put in the `/var/log/sfr-wifi-connect.log` file.
+will automatically start `sfr-wifi-connect` when connected to a SFR WiFi
+endpoint and kill it when disconnected. Logs are put in the
+`/var/log/sfr-wifi-connect.log` file.
 
