@@ -1,10 +1,10 @@
 #!/bin/bash
 
+USER_AGENT="Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20100101 Firefox/17.0"
+
 function param() {
   echo $1 | grep -o "$2=[^&]\+" | grep -o '[^=]\+$'
 }
-
-USER_AGENT="Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20100101 Firefox/17.0"
 
 sfr_email=$1
 sfr_pwd=$2
